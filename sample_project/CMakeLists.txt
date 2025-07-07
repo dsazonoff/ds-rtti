@@ -10,4 +10,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 #set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
-add_executable(MyApp main.cpp test.cpp)
+add_executable(sample-project main.cpp test.cpp)
