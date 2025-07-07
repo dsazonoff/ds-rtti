@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.json",
+  "name": "ds-rtti",
+  "version": "0.1",
+  "homepage": "https://github.com/dsazonoff/ds-rtti",
+  "builtin-baseline": "53b9816594558d0b78529ecce2bf4a97d0a0729e",
+  "dependencies": [
+    {
+      "name": "llvm",
+      "version>=": "18.1.6#4"
+    },
+    {
+      "name": "fmt",
+      "version>=": "11.0.2#1"
+    }
+  ],
+  "overrides": [
+    {
+      "name": "llvm",
+      "version": "18.1.6#4"
+    },
+    {
+      "name": "fmt",
+      "version": "11.0.2#1"
+    }
+  ]
+}
